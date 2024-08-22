@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .invoice-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-list th, .invoice-list td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .invoice-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .reminder-settings form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+  
+  .reminder-settings input {
+    margin: 10px 0;
+    padding: 5px;
+  }
+  
+  .reminder-settings button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .reminder-settings button:hover {
+    background-color: #45a049;
+  }
+  
+  .admin-alert {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .admin-alert button {
+    padding: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .admin-alert button:hover {
+    background-color: #007B9A;
+  }
